@@ -1,52 +1,124 @@
-.books-card {
+.display-flex {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 16px;
+background: #785022;
+padding: 0px 490px;
+gap: 12px;
+width: 1280px;
+height: 867px;
 
-    position: relative;
+}
 
-    box-sizing: border-box;
-    width: 500px;
-    height: 300px;
-    padding: 50px;
+header {
   
-    background: #2980b9;
-    background: linear-gradient(to right, #fff, #6dd5fa, #2980b9);
+position: top;
+width: 870px;
+height: 180px;
+left: 201px;
+top: 160px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 160px;
+line-height: 180px;
+color: #FFFFFF;
+
+}
+
+
+ul {
+  list-style-type: none;
+padding: 0px;
+gap: 24px;
+
+width: 300px;
+height: 363px;
+background: #FFEDD5;
+width: 1280px;
+height: 867px;
+left: 87px;
+top: 571px;
+}
+
+li p {
+
+width: 240px;
+height: 63px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+padding: 0px;
+gap: 24px;
+
+width: 300px;
+height: 363px;
+background: #FFEDD5;
+width: 1280px;
+height: 867px;
+left: 87px;
+top: 571px;
+}
+
+.name-parts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background: #FED7AA;
+padding: 8px 16px;
+gap: 50px;
+width: 300px;
+height: 37px;
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #2D2C2A;
+}
+
+.cafe-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+  gap: 4px;
   
-    cursor: pointer;
-  }
+  width: 300px;
+  height: 117px;
   
-  .book-name {
-    width: 50%;
-  
-    color: #00bcd4;
-    font-weight: bold;
-    font-size: 50px;
-  }
-  
-  .book-author {
-    color: #03a9f4;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  
-  .book-description {
-  
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    
-    box-sizing: border-box;
-    width: 50%;
-    padding: 20px 30px;
-  
-    color: #fff;
-  
-    background: #03a9f4;
-  
-    opacity: 0;
-  
-    transition: 1s;
-  }
-  
-  .books-card:hover > .book-description {
-    opacity: 1;
-  }
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #2D2C2A;
+
+}
+
+.no-markers {
+  list-style-type: none;
+width: 300px;
+height: 19px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+
