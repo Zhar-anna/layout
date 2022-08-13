@@ -1,24 +1,23 @@
 .display-flex {
+  background: url(https://s1.1zoom.ru/b4560/13/Texture_Coffee_Grain_551417_640x960.jpg);
  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
   border-radius: 16px;
-background: #785022;
-padding: 0px 490px;
+/* background: #785022; */
+padding: 60px 490px;
 gap: 12px;
-width: 1280px;
+width: 100%;
 height: 867px;
 
 }
 
-header {
-  
-position: top;
-width: 870px;
+.title {
+/* width: 870px;
 height: 180px;
-left: 201px;
-top: 160px;
+left: 201px; */
+/* top: 160px; */
 
 font-family: 'Roboto Condensed';
 font-style: normal;
@@ -29,8 +28,20 @@ color: #FFFFFF;
 
 }
 
+.cafe {
+padding: 32px 0px;
+gap: 4px; 
+width: 350px;
+height: 117px;
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #211e1e;
+}
 
-ul {
+/* ul {
   list-style-type: none;
 padding: 0px;
 gap: 24px;
@@ -54,8 +65,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 21px;
-}
-.card {
+}  */
+
+ .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,14 +75,12 @@ line-height: 21px;
 padding: 0px;
 gap: 24px;
 
-width: 300px;
+width: 450px;
 height: 363px;
 background: #FFEDD5;
-width: 1280px;
-height: 867px;
 left: 87px;
 top: 571px;
-}
+} 
 
 .name-parts {
   display: flex;
@@ -90,31 +100,13 @@ line-height: 19px;
 color: #2D2C2A;
 }
 
-.cafe-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 32px 0px;
-  gap: 4px;
-  
-  width: 300px;
-  height: 117px;
-  
-font-family: 'Roboto Serif';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 33px;
-color: #2D2C2A;
 
-}
 
 .no-markers {
   list-style-type: none;
-width: 300px;
-height: 19px;
-
+/* width: 300px;
+height: 19px; */
+width: 350px;
 font-family: 'Roboto Serif';
 font-style: normal;
 font-weight: 700;
